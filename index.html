@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/mains.js" type="text/javascript"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <title>Socio-Vitan</title>
+</head>
+<body>
+  
+  <!-- Hero Header-->
+  <section id="hero" class="block py-6" style="background-color: black;">
+    <div id="hero-header__img-container">
+      <img src="img/hero.png" alt="">
+    </div>
+  </section>
+
+  <section>
+    <!-- Navbar -->
+    
+    <nav id="nav">
+      <div class="logo">
+         socio-Vitan
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+      <i id="symbol" class="fas fa-bars"></i>
+      </label>
+      <ul class="navmenu-ul">
+         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav"  href="#">Home</a></li>
+         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#about">About US</a></li>
+         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#service">Services</a></li>
+         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#team">Team</a></li>
+         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#contact">Contact</a></li>
+      </ul>
+   </nav>
+  
+
+
+    <!-- About -->
+    <section id="about">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-6 pt-3">
+            <h1 class="h2 mb-4" style="font-weight: 600; font-size: 500%;">About <span style="color: #9B5DE5;">Us</span>
+            </h1>
+            <p class="text-secondary" style="line-height: 2;  font-size: 20px;">We are a group of young enthusiasts with
+              a
+              bad habit of constantly thinking outside
+              the box. We are headquartered in Mumbai. We, as members of this rapidly developing generation,
+              understand the power of social media and intend to use it to assist people in growing their
+              businesses.</p>
+            <h1 class="h2 mb-4" style="font-weight: 600; font-size: 350%;">Our <span style="color: #9B5DE5;">Goal</span>
+            </h1>
+            <p class="text-secondary" style="line-height: 2;  font-size: 20px;">Our goal will be to provide you with
+              precise
+              assistance in the social domains that
+              will help you accelerate the growth of your business.</p>
+          </div>
+          <div class="col-md">
+            <img src="img/about-us-2.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service" class="bg-dark">
+      <div class="services">
+        <div class="max-width">
+          <h1 style="font-weight: 600; font-size: 500%;">Our <span style="color: #9B5DE5;">Services</span></h1>
+          <div class="content">
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-globe"></i>
+                <h3 class="text-dark">Web Development</h3>
+                <p class="text-dark"> Websites give you far more reach than any other social media platform.We help you
+                  to
+                  build a
+                  website which would help you to grow your business digitally. We will also manage your website
+                  by updating the content of your website according to your needs.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-hashtag"></i>
+                <h3 class="text-dark">Social Media</h3>
+                <p class="text-dark">In this digital world social media is the best platform to grow your business .We
+                  will manage
+                  your social media platform ( YouTube, LinkedIn, Instagram, Facebook, Twitter ). </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-pen-square"></i>
+                <h3 class="text-dark">Content creation</h3>
+                <p class="text-dark">To grow your account on social media you need great content to post. Our team will
+                  assist you to
+                  protray your business in an effective way which will help it shine brighter amongst the others.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <h3 class="text-dark">SEO</h3>
+                <p class="text-dark"> Search engine optimization (SEO) is how we help you find your site when they
+                  search
+                  on
+                  Google, Bing and Yahoo. By building your site the right way and optimizing your keywords, you'll
+                  drive more traffic to your page and generate more sales.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+
+
+    <!-- Team -->
+    <section id="team" class="team2 my-5">
+      <br>
+      <br>
+      <br>
+      <h1 class="h2 mb-4" style="font-weight: 600; font-size: 500%; text-align: center; color: rgb(0, 0, 0)">Our <span
+          style="color: #9B5DE5;">Team</span></h1>
+      <div class="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="single-team">
+                <div class="img-area">
+                  <img src="img/Kris.png" class="img-responsive" alt="">
+                  <div class="social">
+                    <ul class="list-inline">
+                      <li><a href="https://www.instagram.com/krisrawal_/" target="new"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/kris-rawal-57a78a1b9/" target="new"><i
+                            class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="img-text">
+                  <h4>Kris Rawal</h4>
+                  <h5>Cheif of marketing and finance</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="single-team">
+                <div class="img-area">
+                  <img src="img/Ritik.png" class="img-responsive" alt="">
+                  <div class="social">
+                    <ul class="list-inline">
+                      <li><a href="https://www.instagram.com/ritiikk._/" target="new"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a href="#" target="new"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="img-text">
+                  <h4>Ritik Patel</h4>
+                  <h5>Head of Website Development</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="single-team">
+                <div class="img-area">
+                  <img src="img/Pratham.png" class="img-responsive" alt="">
+                  <div class="social">
+                    <ul class="list-inline">
+                      <li><a href="https://instagram.com/prathamm.xe?utm_medium=copy_link" target="new"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a href="#" target="new"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="img-text">
+                  <h4>Pratham Muchhala</h4>
+                  <h6>Head of designing and animation</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="single-team">
+                <div class="img-area">
+                  <img src="img/parth.png" class="img-responsive" alt="">
+                  <div class="social">
+                    <ul class="list-inline">
+                      <li><a href="https://instagram.com/parth_r.exe?utm_medium=copy_link" target="new"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/parth-rambhia-6b0a001b9" target="new"><i
+                            class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="img-text">
+                  <h4>Parth Rambhia</h4>
+                  <h5>Head of Operations</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="single-team">
+                <div class="img-area">
+                  <img src="img/Prathamesh.png" class="img-responsive" alt="">
+                  <div class="social">
+                    <ul class="list-inline">
+                      <li><a href="https://www.instagram.com/prathamesh6928/" target="new"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a href="linkedin.com/in/prathamesh-kadam-73bab0206" target="new"><i
+                            class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="img-text">
+                  <h3>Prathamesh Kadam</h3>
+                  <h5>Content Curator</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="single-team">
+                <div class="img-area">
+                  <img src="img/Neel.png" class="img-responsive" alt="">
+                  <div class="social">
+                    <ul class="list-inline">
+                      <li><a href="https://www.instagram.com/neel.mist/" target="new"><i
+                            class="fa fa-instagram"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/neel-mistry-9a27661b5/" target="new"><i
+                            class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="img-text">
+                  <h4>Neel Mistry</h4>
+                  <h5>Head Of Graphic </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- Contact -->
+    <section class="main my-6" id="contact">
+      <br>
+      <br>
+
+      <h1 class="h2 mb-4 " style="font-weight: 600; font-size: 500%; text-align: center; color: #fff">Contact <span
+          style="color: #9B5DE5;">Us</span></h1>
+      <br>
+
+
+      <div class="contact-wrapper">
+
+        <!-- Left contact page -->
+
+        <div class="col-md">
+          <img src="img/contact-us-banner-img.png" class="img-fluid w-75 h-100" alt="" style="align-items: left;" ;>
+        </div>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Maharashtra,
+                  Mumbai.</span></i></li>
+
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a>+91
+                    8454080578</a></span></i></li>
+
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span
+                  class="contact-text gmail"><a>kris.rawal77@gmail.com</a></span></i></li>
+
+          </ul>
+
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <hr>
+
+          <div class="copyright">Copyright&copy; 2021 Socio-Vitan</div>
+
+        </div>
+
+      </div>
+
+    </section>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
