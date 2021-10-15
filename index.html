@@ -18,34 +18,53 @@
   
   <title>Socio-Vitan</title>
 </head>
-<body>
+<body onload="handleOnLoad();">
   
   <!-- Hero Header-->
-  <section id="hero" class="block py-6" style="background-color: black;">
-    <div id="hero-header__img-container">
-      <img src="img/hero.png" alt="">
+  <section id="hero" style="background-color: black;">
+    <div id="hero-img-header">
+      <img src="img/Final Xd.png" alt="">
     </div>
+    <div id="hero_header_button_id">
+      <a class="hero_header_button" href="#about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Let's Go 
+        </a>
+      </div>
   </section>
 
   <section>
-    <!-- Navbar -->
-    
-    <nav id="nav">
-      <div class="logo">
-         socio-Vitan
-      </div>
-      <input type="checkbox" id="click">
-      <label for="click" class="menu-btn">
-      <i id="symbol" class="fas fa-bars"></i>
-      </label>
-      <ul class="navmenu-ul">
-         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav"  href="#">Home</a></li>
-         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#about">About US</a></li>
-         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#service">Services</a></li>
-         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#team">Team</a></li>
-         <li class="nav-li" onclick="handleNavItemClick();"><a class="att-nav" href="#contact">Contact</a></li>
+    <!-- Navbar   -->
+
+    <nav id="nav____navmenu" class="navbar__no">
+      <a class="nav-logo">Socio-Vitan</a>
+      <ul class="nav-menu">
+          <li class="nav-item">
+              <a href="#hero" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+              <a href="#service" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+              <a href="#team" class="nav-link">Team</a>
+          </li>
+        <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+          </li>
       </ul>
-   </nav>
+      <div class="hamburger" id="nav_hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </nav>
+
   
 
 
@@ -170,7 +189,7 @@
                     <ul class="list-inline">
                       <li><a href="https://www.instagram.com/ritiikk._/" target="new"><i
                             class="fa fa-instagram"></i></a></li>
-                      <li><a href="#" target="new"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/ritik-patel-b08660220/" target="new"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -189,7 +208,7 @@
                     <ul class="list-inline">
                       <li><a href="https://instagram.com/prathamm.xe?utm_medium=copy_link" target="new"><i
                             class="fa fa-instagram"></i></a></li>
-                      <li><a href="#" target="new"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/pratham-muchhala-158359216" target="new"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -228,7 +247,7 @@
                     <ul class="list-inline">
                       <li><a href="https://www.instagram.com/prathamesh6928/" target="new"><i
                             class="fa fa-instagram"></i></a></li>
-                      <li><a href="linkedin.com/in/prathamesh-kadam-73bab0206" target="new"><i
+                      <li><a href="https://www.linkedin.com/in/prathamesh-kadam-73bab0206" target="new"><i
                             class="fa fa-linkedin"></i></a></li>
                     </ul>
                   </div>
@@ -284,7 +303,7 @@
           <img src="img/contact-us-banner-img.png" class="img-fluid w-75 h-100" alt="" style="align-items: left;" ;>
         </div>
 
-        <!-- Left contact page -->
+        <!-- Left contact page  aria-hidden="true" -->
 
         <div class="direct-contact-container">
 
@@ -306,7 +325,7 @@
                 <i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
 
-            <li><a href="#" target="_blank" class="contact-icon">
+            <li><a href="https://www.instagram.com/sociovitaan/" target="new" class="contact-icon">
                 <i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
           </ul>
